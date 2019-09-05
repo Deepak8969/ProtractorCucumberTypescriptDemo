@@ -23,7 +23,7 @@ export let config: Config = {
 
   cucumberOpts: {
     // require step definitions
-    //tags:"@CalculatorFunctionality",
+    tags:"@CalculatorFunctionality",
     format:"json:./report/cucumberreportgenerate.json",
     require: [
       './stepdefination/*.js' // accepts a glob
